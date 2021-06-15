@@ -1,0 +1,11 @@
+<?php
+$con=mysqli_connect("localhost","root","","yoga");
+if($con)
+{
+echo"connected";
+}
+else
+{
+echo"error",mysqli_error_error();
+}
+?>
